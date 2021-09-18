@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/enhancv-builder/static/css/main.d604588d.chunk.css",
+    "main.js": "/enhancv-builder/static/js/main.c62287be.chunk.js",
+    "main.js.map": "/enhancv-builder/static/js/main.c62287be.chunk.js.map",
+    "runtime-main.js": "/enhancv-builder/static/js/runtime-main.85b45499.js",
+    "runtime-main.js.map": "/enhancv-builder/static/js/runtime-main.85b45499.js.map",
+    "static/js/2.03eaf976.chunk.js": "/enhancv-builder/static/js/2.03eaf976.chunk.js",
+    "static/js/2.03eaf976.chunk.js.map": "/enhancv-builder/static/js/2.03eaf976.chunk.js.map",
+    "static/js/3.8a948cce.chunk.js": "/enhancv-builder/static/js/3.8a948cce.chunk.js",
+    "static/js/3.8a948cce.chunk.js.map": "/enhancv-builder/static/js/3.8a948cce.chunk.js.map",
+    "index.html": "/enhancv-builder/index.html",
+    "static/css/main.d604588d.chunk.css.map": "/enhancv-builder/static/css/main.d604588d.chunk.css.map",
+    "static/js/2.03eaf976.chunk.js.LICENSE.txt": "/enhancv-builder/static/js/2.03eaf976.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.85b45499.js",
+    "static/js/2.03eaf976.chunk.js",
+    "static/css/main.d604588d.chunk.css",
+    "static/js/main.c62287be.chunk.js"
+  ]
+}
