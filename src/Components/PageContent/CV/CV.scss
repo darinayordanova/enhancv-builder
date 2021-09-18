@@ -1,0 +1,60 @@
+.cv-wrapper{
+    background: #FFFFFF;
+    box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.1);
+    margin-top: 30px;
+    min-height: 1329px;
+    padding: 60px;
+    position: relative;
+
+    .cv-header{
+        padding: 15px;
+        justify-content: space-between;
+        display: flex;
+        flex-wrap: nowrap;
+        .left-col{
+            width: 67%;
+            min-height: 140px;
+            padding-right: 15px;
+            .icon-inputs{
+                display: flex;
+                margin-top: 20px;
+                flex-flow: row wrap;
+                align-items: center;
+                &>div{
+                    width: 50%;
+                }
+            }
+        }
+    }
+
+    .cv-content{
+        display: flex;
+        margin-top: 10px;
+        .experience{
+            width: 58%;
+            
+
+        }
+    }
+}
+
+.section-heading{
+    font-family: 'Rubik', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 33px;
+    color: #2D3639;
+    border-bottom: 3px solid #2D3639;
+    margin: 15px 15px 0 15px;
+}
+
+
+.tinted-background{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.2);
+}

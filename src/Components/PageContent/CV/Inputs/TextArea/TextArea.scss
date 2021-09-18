@@ -1,0 +1,53 @@
+.divtext{  
+    overflow: auto;
+    width:100%;
+    min-height: 20px;
+    margin-top: 4px;
+    display:block;
+    border:none;
+    resize: none;
+    outline: none;
+    color: #384347;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 20px;
+    font-family: 'Inter', sans-serif;
+    b{
+        font-weight: bold;
+    }
+    u{
+        text-decoration: underline;
+    }
+    i{
+        font-style: italic;
+    }
+  }
+#secretDiv{
+    position: absolute;
+    width: 100%;
+    left: 0;
+    margin: 0;
+    top: -4px;
+    pointer-events: none;
+    padding: 0;
+    visibility: hidden;
+}
+  [contenteditable][placeholder]:empty:before {
+    content: attr(placeholder);
+    position: absolute;
+    font-size: 13px;
+    line-height: 20px;
+    color: #384347;
+    opacity: 0.5;
+    background-color: transparent;
+  }
+.wrapper-mistakes{
+  box-sizing: content-box;
+  pointer-events: none;
+  overflow: hidden;
+  border: 0px none;
+  border-radius: 0px;
+  padding: 0px;
+  margin: 0px;
+}

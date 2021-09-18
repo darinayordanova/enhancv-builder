@@ -1,0 +1,99 @@
+.input-item{
+    border: none;
+    outline: none;
+    width: 100%;
+    padding: 0;
+    &.name{
+        font-family: 'Rubik', sans-serif;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 42px;
+        line-height: 50px;
+        color: #2D3639;
+        text-transform: uppercase;
+        &::placeholder {
+            color: #2D3639;
+            opacity: 50%;
+          }
+    }
+    &.role{
+        font-family: 'Rubik', sans-serif;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 21px;
+        line-height: 25px;
+        color: #3F9CDC;
+        text-transform: capitalize;
+        &::placeholder {
+            color: #3f9ddc;
+            opacity: 50%;
+          }
+    }
+    &.contact{
+        font-family: 'Inter', sans-serif;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 12px;
+        line-height: 20px;
+        color: #384347;
+        &::placeholder {
+            color: #384347;
+            opacity: 50%;
+          }
+    }
+    &.job-title{
+        font-family: 'Rubik', sans-serif;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 22px;
+        line-height: 26px;
+        color: #2D3639;
+        &::placeholder {
+            color: #2D3639;
+            opacity: 50%;
+          }
+    }
+    &.company-name{
+        margin-top: 4px;
+        color: #3F9CDC;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 22px;
+        font-family: 'Rubik', sans-serif;
+        &::placeholder {
+            color: #3F9CDC;
+            opacity: 50%;
+          }
+    } 
+    &.job-details{
+        font-family: 'Inter', sans-serif;
+        color: #384347;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 12px;
+        line-height: 20px;
+        &::placeholder {
+            color: #384347;
+            opacity: 50%;
+          }
+    }
+}
+.input-icons-row{
+    display: flex;
+    padding-bottom: 4px;
+    padding-right: 15px;
+    flex-wrap: nowrap;
+    box-sizing: border-box;
+    img{
+        margin-right: 4px;
+        opacity: 50%;
+        transition: all ease-in-out 300ms;
+        &.solid{
+            opacity: 100%;
+        }
+    }
+    &.job-det{
+        padding-right: 10px;
+    }
+}

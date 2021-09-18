@@ -1,0 +1,12 @@
+.mistake{
+    
+    position: absolute;
+    transition: all ease-in-out 300ms;
+    &.hov{
+        background-color: rgba(235, 87, 87, 0.66);
+    }
+    &.whole{
+        background-color: rgba(235, 87, 87, 0.33);
+
+    }
+}

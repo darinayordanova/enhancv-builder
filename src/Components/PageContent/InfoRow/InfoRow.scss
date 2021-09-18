@@ -1,0 +1,43 @@
+.row{
+    display: flex;
+    justify-content: space-between;
+    .info-label-left{
+        display: flex;
+        align-items: center;
+        p{
+            font-style: normal;
+            font-size: 14px;
+            line-height: 20px;
+            color: #BDBDBD;
+            font-weight: 500;
+            font-family: 'Inter', sans-serif;
+            &.label{
+                font-weight: 600;
+                color: #828282;
+                margin-right: 6px;
+            }
+        }
+    }
+    .info-label-right{
+        display: flex;
+        align-items: center;
+        img{
+            height: 14px;
+            margin-right: 12px;
+
+        }
+        p{
+            font-style: normal;
+            font-size: 12px;
+            line-height: 20px;
+            color: #BDBDBD;
+            font-weight: 400;
+            font-family: 'Inter', sans-serif;
+            &.label{
+                color: #232528;
+                margin-right: 8px;
+            }
+            
+        }
+    }
+}
