@@ -13,7 +13,7 @@
         text-transform: uppercase;
         &::placeholder {
             color: #2D3639;
-            opacity: 50%;
+            opacity: 0.5;
           }
     }
     &.role{
@@ -26,7 +26,7 @@
         text-transform: capitalize;
         &::placeholder {
             color: #3f9ddc;
-            opacity: 50%;
+            opacity: 0.5;
           }
     }
     &.contact{
@@ -38,7 +38,7 @@
         color: #384347;
         &::placeholder {
             color: #384347;
-            opacity: 50%;
+            opacity: 0.5;
           }
     }
     &.job-title{
@@ -50,7 +50,7 @@
         color: #2D3639;
         &::placeholder {
             color: #2D3639;
-            opacity: 50%;
+            opacity: 0.5;
           }
     }
     &.company-name{
@@ -63,7 +63,7 @@
         font-family: 'Rubik', sans-serif;
         &::placeholder {
             color: #3F9CDC;
-            opacity: 50%;
+            opacity: 0.5;
           }
     } 
     &.job-details{
@@ -75,7 +75,7 @@
         line-height: 20px;
         &::placeholder {
             color: #384347;
-            opacity: 50%;
+            opacity: 0.5;
           }
     }
 }
@@ -87,10 +87,10 @@
     box-sizing: border-box;
     img{
         margin-right: 4px;
-        opacity: 50%;
+        opacity: 0.5;
         transition: all ease-in-out 300ms;
         &.solid{
-            opacity: 100%;
+            opacity: 1;
         }
     }
     &.job-det{
